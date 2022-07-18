@@ -1,0 +1,110 @@
+body{
+    padding: 0;
+    margin: 0;
+   }
+.container{
+     position: absolute;
+     top: 50%;
+     left: 52%;
+     width: 420px;
+     height: 420px;
+     background-image: linear-gradient(orange,yellow);
+     border-radius: 50%;
+     transform: translate(-50%,-50%);
+     overflow: hidden;
+     border:10px solid orange;
+   }
+   .eye1{
+      position: absolute;
+      width: 84px;
+      height: 84px;
+      background: #fff;
+      border-radius: 50%;
+      top: 120px;
+      left: 90px;
+      overflow: hidden;
+      border: 2px solid grey;
+     
+   }
+   .eye2{
+       position: absolute;
+       width: 84px;
+       height: 84px;
+       background: #fff;
+       border-color: darkred;
+       border-radius: 50%;
+       top: 120px;
+       right: 90px;
+       overflow: hidden;
+       border: 2px solid grey;
+               
+   }
+   .eyeball1{
+    position:absolute;
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    background:black;
+    top: 18px;;
+    left: 19px; 
+
+   }
+   .eyeball2{
+    position:absolute;
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    background:black;
+    top: 18px;
+    left: 19px;          
+   }
+   .mouth{
+       position:absolute;
+       width: 115px;
+       height: 30px;
+       background: rgba(0, 0, 0, 0.65);
+       bottom: 80px;
+       left: 163px;
+       border-radius: 8px;
+   }
+   .teeth1{
+       position: absolute;
+       width: 30px;
+       height: 30px;
+       border-radius: 10px;
+       background:white;  
+       bottom: 50px;
+       left: 189px;     
+       border: 2px solid black;         
+   }
+   .teeth2{
+       position: absolute;
+       width: 30px;
+       height: 30px;
+       border-radius: 10px;
+       background:white;  
+       bottom: 50px;
+       right: 165px; 
+       border: 2px solid black;           
+   }
+   .eyebrow1{
+       position: absolute;
+       width: 80px;
+       height: 20px;
+       background: grey;
+       top: 85px;
+       left: 85px;
+       border: 2px solid brown;
+       border-radius: 30%;
+   }
+   .eyebrow2{
+       position: absolute;
+       width: 80px;
+       height: 20px;
+       background: grey;
+       top: 85px;
+       right: 85px;
+       border: 2px solid brown;
+       border-radius: 30%;
+   }
+   
